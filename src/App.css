@@ -36,3 +36,17 @@
     transform: rotate(360deg);
   }
 }
+.container{
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+}
+.country-info{
+  border: 2px solid lightcyan;
+  background-color: lightgrey;
+  padding: 10px;
+  margin: 10px;
+}
+.img-size{
+  width:300px;
+  height: auto;
+}
